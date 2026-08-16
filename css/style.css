@@ -1,13 +1,5 @@
-/* =========================
-   BASE
-   ========================= */
-
 * {
     box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
@@ -16,11 +8,6 @@ body {
     color: #263238;
     font-family: Arial, sans-serif;
 }
-
-
-/* =========================
-   HEADER
-   ========================= */
 
 .site-header {
     width: 85%;
@@ -47,21 +34,11 @@ body {
     line-height: 1.6;
 }
 
-
-/* =========================
-   CONTENU PRINCIPAL
-   ========================= */
-
 main {
     width: 85%;
     max-width: 1400px;
     margin: 0 auto;
 }
-
-
-/* =========================
-   BLOCS DE JEUX
-   ========================= */
 
 .game-preview {
     display: grid;
@@ -74,21 +51,11 @@ main {
     grid-template-columns: 1fr 2fr;
 }
 
-
-/* =========================
-   CARROUSEL
-   ========================= */
-
 .game-carousel {
     aspect-ratio: 16 / 9;
     overflow: hidden;
     background: #e2e7e5;
 }
-
-
-/* =========================
-   INFORMATIONS
-   ========================= */
 
 .game-info {
     padding: 40px;
@@ -113,11 +80,6 @@ main {
     margin-top: 35px;
     line-height: 1.6;
 }
-
-
-/* =========================
-   MOBILE
-   ========================= */
 
 @media (max-width: 800px) {
 
